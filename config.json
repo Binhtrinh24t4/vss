@@ -17,7 +17,7 @@
 		"Timeout": 5,
 		"ShowLog": false
 	},
-	"PsiphonCore": 20,
+	"PsiphonCore": 40,
 	"Psiphon": {
 		"CoreName": "psiphon-tunnel-core",
 		"Tunnel": 8,
@@ -26,8 +26,8 @@
 			"FRONTED-MEEK-HTTP-OSSH",
 			"FRONTED-MEEK-OSSH"
 		],
-		"TunnelWorkers": 2,
-		"KuotaDataLimit": 4,
+		"TunnelWorkers": 8,
+		"KuotaDataLimit": 3,
 		"Authorizations": []
 	}
 }
